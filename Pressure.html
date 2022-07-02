@@ -1,11 +1,15 @@
 <p>bruh</p>
-
+<button onclick="asdf"></button>
 
 
 <script>
 
+    var onAndroid = (global('sdk') > 0);
+
     let asdf = function ()
     {
+        flash("asdf");
+        flash(global("LastPressureData"));
         console.log("asdf");
     };
 </script>
